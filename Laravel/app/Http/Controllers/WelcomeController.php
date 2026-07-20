@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class WelcomeController extends Controller
 {
     public function hello(){
-        return "Hello World Dari Controller";
+        return "Hello World Dari Controller"; 
     }
 }
 
