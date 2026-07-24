@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 class WelcomeController extends Controller
 {
     public function hello(){
-        return "Hello World Dari Controller"; 
+        return view ('blog.hello')
+        ->with('name', 'Andi')
+        ->with('umur', 17);
     }
 }
-
-
 

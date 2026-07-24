@@ -33,8 +33,22 @@ Route::get('/about', function () {
     echo "NIM: 26006<br>";
     echo "Nama: Mutia Izza M.<br>";
     echo "Kelas: XI-RPB";
+
+    echo "Nim: ";
 });
 
 Route::get('/articles/{id}', function ($id) {
     return "Ini adalah halaman Artikel dengan ID: " . $id;
+});
+
+Route::get('/hellow', [WelcomeController::class, 'hello']); 
+
+Route::get('/profil', function(){
+    return view('child');
+});
+Route::get('/profile', function(){
+    return view('child');
+});
+Route::get('/home', function () {
+    return view('home');
 });
