@@ -43,34 +43,47 @@
         <h2 class="wow fadeInUp" data-wow-delay="0.3s">BEST DISHES</h2>
 
         <div class="slider">
-            <ul class="slides">
+<ul class="slides">
 
-                <li class="slide">
+    <li class="slide">
 
-                    <div class="item">
-                        <img src="{{ asset('images/thumb1.png') }}" width="226" height="225"
-                            class="wow flipInX" data-wow-delay=".8s">
+        <div class="item">
+            <img src="{{ asset('images/thumb1.png') }}">
+            <h3>Pasta Capellini</h3>
+        </div>
 
-                        <h3>Pasta Capellini</h3>
-                    </div>
+        <div class="item2">
+            <img src="{{ asset('images/thumb2.jpg') }}">
+            <h3>Pasta Pillus</h3>
+        </div>
 
-                    <div class="item2">
-                        <img src="{{ asset('images/thumb2.jpg') }}" width="226" height="225"
-                            class="wow flipInX" data-wow-delay=".8s">
+        <div class="item3">
+            <img src="{{ asset('images/thumb3.png') }}">
+            <h3>Pasta Fusilli</h3>
+        </div>
 
-                        <h3>Pasta Pillus</h3>
-                    </div>
+    </li>
 
-                    <div class="item3">
-                        <img src="{{ asset('images/thumb3.png') }}" width="226" height="225"
-                            class="wow flipInX" data-wow-delay=".8s">
+    <li class="slide">
 
-                        <h3>Pasta Fusilli</h3>
-                    </div>
+        <div class="item">
+            <img src="{{ asset('images/thumb1.png') }}">
+            <h3>Pasta Capellini</h3>
+        </div>
 
-                </li>
+        <div class="item2">
+            <img src="{{ asset('images/thumb2.jpg') }}">
+            <h3>Pasta Pillus</h3>
+        </div>
 
-            </ul>
+        <div class="item3">
+            <img src="{{ asset('images/thumb3.png') }}">
+            <h3>Pasta Fusilli</h3>
+        </div>
+
+    </li>
+
+</ul>
         </div>
 
     </div>

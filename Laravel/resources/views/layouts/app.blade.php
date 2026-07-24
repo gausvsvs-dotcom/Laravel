@@ -35,5 +35,18 @@
 
 @include('partials.footer')
 
+<script>
+$(document).ready(function () {
+
+    $('#slider .slider').glide({
+        autoplay: 4000
+    });
+
+    $('#bestdishes .slider').glide({
+        autoplay: 4000
+    });
+
+});
+</script>
 </body>
 </html>

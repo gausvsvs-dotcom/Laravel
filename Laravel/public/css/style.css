@@ -54,6 +54,9 @@ animation:rubberBand 0.9s; -webkit-animation:rubberBand 0.9s;}
 
 /*||||||||||||||||||||||||||||||||| SLIDER ||||||||||||||||||||||||||||||*/
 .sliderwrapper { margin-top:30px;}
+.slider{
+    overflow: hidden;
+}
 .sliderwrapper .slider ul {list-style:none;}
 .slide img{cursor:pointer;}
 
